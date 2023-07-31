@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Dai+Banna+SIL&family=Noto+Serif+Vithkuqi&family=Roboto+Mono&family=Roboto+Slab&display=swap");
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: white;
+  background-image: url(/imagens/background.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+main#conteudo {
+  background-color: white;
+  padding: 20px;
+  margin: 0px auto -16px auto;
+  display: block;
+  min-width: 320px;
+  max-width: 800px;
+  font-size: 1em;
+  font-family: "Roboto Slab", serif;
+}
+
+main#conteudo h3 {
+  color: #c69888;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
+}
+
+header {
+  background-color: black;
+  margin: 0px;
+  margin-top: -25px;
+  padding: 80px 20px 30px 20px;
+  text-align: center;
+  font-variant: small-caps;
+  color: white;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.185);
+}
+
+header h1 {
+  margin-bottom: 0px;
+}
+
+header h2 {
+  margin-top: 5px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #da9f93;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffd5ea;
+  transition: 1s;
+}
+
+section {
+  background-color: white;
+  color: black;
+}
+
+.imagem {
+  background-color: rgb(75, 75, 75);
+  padding: 20px;
+  box-shadow: inset 6px 6px 8px rgba(0, 0, 0, 0.26);
+  background-attachment: fixed;
+}
+
+.imagem > p {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.397);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#imagem1 {
+  background-image: url(./imagens/background01.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#imagem2 {
+  background-image: url(./imagens/background02.jpg);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+footer > p {
+  font-family: "Lato", sans-serif;
+}
